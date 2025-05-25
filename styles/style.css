@@ -1,11 +1,4 @@
-.menu-link{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 19px;
-    color: #FFFFFF;
-    text-decoration: none;
-    font-family: "PlayfairDisplay", Arial, sans-serif;
-}
+
 @font-face {
     font-family: "PlayfairDisplay";
     src: url("../fonts/PlayfairDisplay-Regular.ttf");
@@ -98,41 +91,54 @@
     font-display: swap;
 }
 
-.menu-home{
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: transparent;
+    padding-left: 93px;
+    padding-right: 93px;
+    padding-top: 14px;
+    
+}
+
+.body{
+    width: 1366px;
+    
+    background-image: url(../images/overlay.svg), url(../images/coffee_image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: 1366px 785px; 
+    margin: 0px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+.menu-pup{
     font-weight: 500;
     font-size: 14px;
     line-height: 19px;
     color: #FFFFFF;
     text-decoration: none;
-    font-family: "", "PlayfairDisplay", Arial, sans-serif;
+    font-family: "PlayfairDisplay", Arial, sans-serif;
+    margin: 0;
+    padding-right: 60px;
     
 }
-
 .menu-link{
     font-weight: 500;
     font-size: 14px;
     line-height: 19px;
     color: #FFFFFF;
-    text-decoration: none;
-    font-family: "", "PlayfairDisplay", Arial, sans-serif;
-}
-
-.menu-about{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 19px;
-    color: #FFFFFF;
-    text-decoration: none;
-    font-family: "", "PlayfairDisplay", Arial, sans-serif;
-}
-
-.menu-contact{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 19px;
-    color: #FFFFFF;
-    text-decoration: none;
-    font-family: "", "PlayfairDisplay", Arial, sans-serif;
+    text-decoration: underline;
+    font-family: "PlayfairDisplay", Arial, sans-serif;
+    margin: 0;
+    padding-right: 35px;
+    padding-left: 200px;
 }
 
 .menu-button{
@@ -144,21 +150,721 @@
 
     border: 1px solid #F9C06A;
     border-radius: 24px;
+    padding-top: 14px;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-bottom: 15px;
+    font-family: "PlayfairDisplay", Arial, sans-serif;
+    margin-right: 20px;
+    cursor: pointer;
+   
+
+}
+
+
+.main-button{
+    font-weight: 600;
+    font-size: 16px;
+
+    color: #1E1E1E;
+    background-color: #F9C06A;
+
+    border: 1px solid #F9C06A;
+    border-radius: 24px;
+    padding-top: 14px;
+    padding-left: 26px;
+    padding-bottom: 13px;
+    padding-right: 26px;
+    font-family: "PlayfairDisplay", Arial, sans-serif;
+    margin-left: 79px;
+    cursor: pointer;
+}
+.coffee{
+    padding: 90px;
+}
+
+.Weve{
+    font-weight: 500;
+    font-size: 22px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family:"PlayfairDisplay", Arial, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.titlee{
+    font-weight: 400;
+    font-size: 220px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: "ClickerScript", Arial, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.itis{
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family:"PlayfairDisplay", Arial, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 34px;
+}
+
+
+.Discover{
+    font-weight: 700;
+    font-size: 54px;
+    color: #603809;
+    text-decoration: none;
+    line-height: 72px;
+    font-family:"PlayfairDisplay", Arial, sans-serif;
+    margin-bottom: 29px;
+    margin-left: 93px;
+}
+.provides{
+    font-weight: 400;
+    font-size: 20px;
+    color: #707070;
+    text-decoration: none;
+    font-family:"PlayfairDisplay", Arial, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 29px;
+    line-height: 34px;
+    margin-left: 93px;
+}
+
+
+.stylizedcup{
+    
+    margin-top: 97.5px;
+    padding-right: 95px;
+    float: left;
+    padding-bottom: 20px;
+}
+.caca{
+    padding-top: 65px;
+}
+
+.button{
+    font-weight: 600;
+    font-size: 16px;
+
+    color: #1E1E1E;
+    background-color: #F9C06A;
+
+    border: 1px solid #F9C06A;
+    border-radius: 24px;
+    padding: 11px 25px;
+    font-family: "PlayfairDisplay", Arial, sans-serif;
+    cursor: pointer;
+    margin-left: 93px;
+}
+
+.blast{
+    padding-right: 400px;
+}
+.join-button{
+    font-weight: 600;
+    font-size: 16px;
+
+    color: #1E1E1E;
+    background-color: #F9C06A;
+
+    border: 1px solid #F9C06A;
+    border-radius: 24px;
+    padding: 14.5px 27px;
+    font-family: "PlayfairDisplay", Arial, sans-serif;
+    margin-left: 616px;
+    cursor: pointer;
+}
+
+.blend{ 
+    padding-bottom: 15px;
+}
+
+.enjoy{
+    font-weight: 700;
+    font-size: 54px;
+    color: #603809;
+    text-decoration: none;
+    line-height: 72px;
+    font-family:"PlayfairDisplay", Arial, sans-serif;
+    margin-bottom: 15px;
+    margin-left: 286px;
+}
+.Explore{
+    font-weight: 400;
+    font-size: 20px;
+    color: #707070;
+    text-decoration: none;
+    font-family:"PlayfairDisplay", Arial, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 34px;
+    padding-left: 310px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 93px;
+    padding-left: 53px;
+   
+}
+
+
+
+.why{
+    font-weight: 700;
+    font-size: 54px;
+    color: #603809;
+    text-decoration: none;
+    line-height: 72px;
+    font-family:"PlayfairDisplay", Arial, sans-serif;
+    margin-bottom: 15px;
+    margin-left: 414px;
+}
+
+.wedont{
+    font-weight: 400;
+    font-size: 20px;
+    color: #707070;
+    text-decoration: none;
+    font-family:"PlayfairDisplay", Arial, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 34px;
+    margin-left: 458px;
+}
+.great{
+    font-weight: 400;
+    font-size: 20px;
+    color: #707070;
+    text-decoration: none;
+    font-family:"PlayfairDisplay", Arial, sans-serif;
+    padding-top: 32px;
+    margin-bottom: 0px;
+    line-height: 27px;
+    margin-left: 412px;
+}
+.get{
+    font-weight: 700;
+    font-size: 30px;
+    color: #603809;
+    text-decoration: none;
+    line-height: 40px;
+    font-family:"PlayfairDisplay", Arial, sans-serif;
+    margin-bottom: 15px;
+    margin-left: 562px;
+    margin-top: 0px;
+}
+.roaw{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 93px;
+    padding-left: 93px;
+}
+.Supremebeans{
+    background-color: #FFEED8;
+}
+.HighQuality{
+    background-color: #FFF9F1;
+
+}
+.Extraordinary{
+    background-color: #FFF9F1;
+
+}
+.Affordableprice{
+    background-color: #FFF9F1;
+}
+
+.enter{
+    font-weight: 400;
+    font-size: 20px;
+
+    color: 000000;
+    background-color: #F9C06A;
+
+    border: 1px solid #F9C06A;
+    border-radius: 4px;
     padding: 14.5px 27px;
     font-family: "PlayfairDisplay", Arial, sans-serif;
 
     cursor: pointer;
 }
 
-.menu-singin{
+.getachance{
+    font-weight: 700;
+    font-size: 54px;
+    color: #FFFFFF;
+    line-height: 72px;
     font-family: "PlayfairDisplay", Arial, sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 19px;
-    text-decoration: underline;
-    color: white;
+    
+    padding-left: 93px;
+    padding-top: 135px;
+}
+.weare{
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family:"PlayfairDisplay", Arial, sans-serif;
+    line-height: 34px;
+    padding-left: 97px;
+    padding-right: 698px;
+    margin-top: -20px;
+    
+}
+.amazing{
+    width: 1366px;
+    height: 574px;
+    background-image: url(../images/Coffee.png) ;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: 1366px 574px;
+    
 }
 
-.header{
-    background-color: brown;
+.cuppie{
+    
+    padding-right: 173px;
+    float: right;
+    padding-bottom: 53px;
+}
+
+.order-button{
+    font-weight: 600;
+    font-size: 16px;
+
+    color: #1E1E1E;
+    background-color: #F9C06A;
+
+    border: 1px solid #F9C06A;
+    border-radius: 24px;
+    padding-top: 14px;
+    padding-left: 26px;
+    padding-bottom: 13px;
+    padding-right: 26px;
+    font-family: "PlayfairDisplay", Arial, sans-serif;
+    margin-left: 93px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+.our{
+    font-weight: 700;
+    font-size: 54px;
+    color: #603809;
+    text-decoration: none;
+    line-height: 72px;
+    font-family:"PlayfairDisplay", Arial, sans-serif;
+    margin-bottom: 16px;
+    margin-left: 301px;
+}
+
+.lorem{
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    text-decoration: none;
+    font-family:"PlayfairDisplay", Arial, sans-serif;
+    margin-top: 14px;
+    margin-bottom: 28px;
+    line-height: 36px;
+    margin-left: 100px;
+    
+    
+    justify-content: center;
+    
+}
+
+.jonny{
+    font-weight: 700;
+    font-size: 30px;
+    color: #603809;
+    text-decoration: none;
+    line-height: 43px;
+    font-family:"PlayfairDisplay", Arial, sans-serif;
+    margin-bottom: 4px;
+    margin-left: 385px;
+    margin-top: 28px;
+}
+.text{
+    background-color: #FFF9F1;
+    width: 950px;
+    height: 524px;
+    border: 1px solid #F9C06A;
+
+    margin-left: 193px;
+    margin-top: 44px;
+    margin-bottom: 138px;
+    
+}
+.manager{
+    font-weight: 400;
+    font-size: 20px;
+    color: #707070;
+    text-decoration: none;
+    font-family:"PlayfairDisplay", Arial, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 45px;
+    line-height: 34px;
+    margin-left: 417px;
+    
+}
+
+.Subs{
+    font-weight: 700;
+    font-size: 54px;
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 72px;
+    font-family:"PlayfairDisplay", Arial, sans-serif;
+    padding-bottom: 16px;
+    margin-bottom: 0px;
+    padding-left: 285px;
+    padding-top: 80px;
+}
+.news{
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family:"PlayfairDisplay", Arial, sans-serif;
+    padding-bottom: 26px;
+    line-height: 34px;
+    margin-left: 388px;
+    margin-top: 0px;
+}
+.prefooter{
+    width: 1366px;
+    
+    background-image: url(../images/Coffee.png);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: 1366px 374px;
+}
+.name{
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    opacity: 34%;
+    text-decoration: none;
+    font-family:"PlayfairDisplay", Arial, sans-serif;
+    line-height: 34px;
+    margin: 0px;
+    padding-top: 16px;
+    padding-left: 26px;
+}
+.enteryourname{
+    margin-left: 362px;
+    
+}
+.all{
+    padding-bottom: 80px;
+}
+.mail{ 
+    background-color: #FFF9F1;
+    width: 642px;
+    height: 66px; 
+    padding-right: -137px;
+}
+.Suscribe-button{
+    font-weight: 700;
+    font-size: 22px;
+
+    color: #1E1E1E;
+    background-color: #F9C06A;
+
+    border: 1px solid #F9C06A;
+    border-radius: 4px;
+    padding: 17.5px 27px;
+    font-family: "PlayfairDisplay", Arial, sans-serif;
+    margin-left: 867px;
+    cursor: pointer;  
+    
+}
+.sbs{
+    margin-top: -66px;
+}
+.footer{
+    width: 1366px;
+    background-color: #442808;
+    background-image:linear-gradient(hsla(32, 79%, 15%, 0.8)), url(../images/many_beans.png);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: 1366px 698px;
+}
+
+.footerer{
+    padding-left: 93px;
+    padding-right: 93px;
+    padding-top: 162px;
+    padding-bottom: 72px;
+    justify-content: space-between;
+    display: flex;
+    color: #ffffff;
+}
+
+.Scene{
+    font-size: 54px;
+    line-height: 71px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-family: "ClickerScript", Arial, sans-serif;
+}
+.ipsum{
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    font-family: "PlayfairDisplay", Arial, sans-serif;
+    margin-right: 66px;
+}
+.a1{
+    font-size: 26px;
+    line-height: 35px;
+    font-weight: 700;
+    font-family: "PlayfairDisplay", Arial, sans-serif;
+    margin-bottom: 55px;
+}
+.b1{
+    font-size: 18px;
+    line-height: 42px;
+    font-weight: 400;
+    font-family: "PlayfairDisplay", Arial, sans-serif;
+    margin-right: 66px;
+}
+.a2{
+    font-size: 26px;
+    line-height: 35px;
+    font-weight: 700;
+    font-family: "PlayfairDisplay", Arial, sans-serif;
+    margin-bottom: 55px;
+}
+.b2{
+    font-size: 18px;
+    line-height: 42px;
+    font-weight: 400;
+    font-family: "PlayfairDisplay", Arial, sans-serif;
+    margin-right: 66px;
+}
+.a3{
+    font-size: 26px;
+    line-height: 35px;
+    font-weight: 700;
+    font-family: "PlayfairDisplay", Arial, sans-serif;
+    margin-bottom: 40px;
+}
+.b3{
+    font-size: 18px;
+    line-height: 42px;
+    font-weight: 400;
+    font-family: "PlayfairDisplay", Arial, sans-serif;
+    margin-right: 66px;
+}
+
+.Cappuccino{
+    background-color: #FFF9F1;
+    
+}
+.cap{
+    font-size: 22px;
+    line-height: 29px;
+    font-weight: 700;
+    color: #603809;
+    padding-left: 79px;
+    margin-bottom: 0px;
+}
+.exp{
+    font-size: 22px;
+    line-height: 29px;
+    font-weight: 700;
+    color: #603809;
+    padding-left: 94px;
+    margin-bottom: 0px;
+}
+.chai{
+    font-size: 22px;
+    line-height: 29px;
+    font-weight: 700;
+    color: #603809;
+    padding-left: 88px;
+    margin-bottom: 0px;
+}
+.mac{
+    font-size: 22px;
+    line-height: 29px;
+    font-weight: 700;
+    color: #603809;
+    padding-left: 89px;
+    margin-bottom: 0px;
+    
+}
+.ChaiLatte{
+    background-color: #FFF9F1;
+}
+.Macchiato{
+    background-color: #FFF9F1;
+}
+.Expresso{
+    background-color: #FFF9F1;
+}
+.milk{
+    font-weight: 400;
+    font-size: 16px;
+    color: #1E1E1E;
+    text-decoration: none;
+    font-family:"PlayfairDisplay", Arial, sans-serif;
+    line-height: 21px;
+    padding-left: 63px;
+    margin: 0px;
+    margin-bottom: 0px;
+}
+.mony{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #603809;
+    padding-left: 117px;
+    padding-right: 117px;
+}
+.inputname{
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    opacity: 34%;
+    text-decoration: none;
+    font-family:"PlayfairDisplay", Arial, sans-serif;
+    line-height: 34px;
+    margin: 0px;
+    padding-top: 16px;
+    padding-left: 26px;
+    padding-right: 245px;
+    padding-bottom: 14px;
+}
+
+.Supreme{
+    font-size: 28px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #603809;
+    padding-left: 39px;
+    padding-right: 40px;
+    
+}
+.bibi{
+    margin-left: 96px;
+    padding-top: 36px;
+    margin-right: 96px;
+}
+.provide{
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    text-decoration: none;
+    font-family:"PlayfairDisplay", Arial, sans-serif;
+    line-height: 27px;
+    padding-left: 52px;
+    padding-bottom: 10px;
+}
+
+.High{
+    font-size: 28px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #603809;
+    padding-left: 57px;
+    padding-right: 40px;
+    
+}
+.hihi{
+    margin-left: 96px;
+    padding-top: 36px;
+    margin-right: 96px;
+}
+.wewe{
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    text-decoration: none;
+    font-family:"PlayfairDisplay", Arial, sans-serif;
+    line-height: 27px;
+    padding-left: 73px;
+    padding-bottom: 10px;
+}
+
+.Extraor{
+    font-size: 28px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #603809;
+    padding-left: 49px;
+    padding-right: 40px;
+    
+}
+.haha{
+    margin-left: 96px;
+    padding-top: 36px;
+    margin-right: 96px;
+}
+.cici{
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    text-decoration: none;
+    font-family:"PlayfairDisplay", Arial, sans-serif;
+    line-height: 27px;
+    padding-left: 59px;
+    padding-bottom: 10px;
+}
+
+.Affordablepr{
+    font-size: 28px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #603809;
+    padding-left: 49px;
+    padding-right: 40px;
+    
+}
+.lala{
+    margin-left: 96px;
+    padding-top: 36px;
+    margin-right: 96px;
+}
+.uiui{
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    text-decoration: none;
+    font-family:"PlayfairDisplay", Arial, sans-serif;
+    line-height: 27px;
+    padding-left: 59px;
+    padding-bottom: 10px;
+}
+.man{
+    width: 112px;
+    margin-left: 434px;
+    
+}
+.topleft{
+    margin-left: 29px;
+    margin-top: 54px;
+}
+.reversspashe{
+    margin-top: -280px;
+
+}
+.reversspashe2{
+    margin-left: 924px;
+    padding-right: -880px;
+    margin-top: -50px;
+    margin-bottom: -200px;
+}
+.svg{
+    justify-content: center;
+    margin-top: 24px;
 }
