@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BeanScene</title>
     <link rel="stylesheet" href="styles/style.css">
+    
 </head>
 <body class="body">
     <header class="header">
@@ -30,13 +31,14 @@
             </div>
         </section>
         <section class="white">
+            
             <div class="caca">
-                    <img  src="images/stylized-cup-coffee-out-coffee-beans-flat-lay 1.jpg" width="500" height="484" >
-                <sidebar class="stylizedcup">
+                
+                <div class="stylizedcup">
                     <h1 class="Discover">Discover the best coffee</h1>
                     <h3 class="provides">Bean Scene is a coffee shop that provides you with quality coffee <br> that helps boost your productivity and helps build your mood.<br> Having a cup of coffee is good, but having a cup of real coffee is <br> greater. There is no doubt that you will enjoy this coffee more <br> than others you have ever tasted.</h3>
                     <button class="button" href="">Learn More</button>    
-                </sidebar>
+                </div>
             </div>
             </section>
                 <div class="blast">
@@ -49,34 +51,34 @@
             </div>
             
             <ul class="row">
-                <li class="Cappuccino">
+                <div class="Cappuccino">
                     <img src="images/Cappuccino.jpg" alt="Кпапучино" width="280" height="222">
                     <h3 class="cap">Cappuccino</h3>
                     <h2 class="milk">Coffee 50% | Milk 50%</h2>
                     <h2 class="mony">$8.50</h2>
-                    <button class="main-button" href="">Order Now</button>
-                </li>
-                <li class="ChaiLatte">
+                    <button class="main-buton">Order Now</button>
+                </div>
+                <div class="ChaiLatte">
                     <img src="images/ChaiLatte.jpg" alt="чай" width="280" height="222">
                     <h3 class="chai">Chai Latte</h3>
                     <h2 class="milk">Coffee 50% | Milk 50%</h2>
                     <h2 class="mony">$8.50</h2>
-                    <button class="main-button" href="">Order Now</button>
-                </li>
-                <li class="Macchiato">
+                    <button class="main-buton">Order Now</button>
+                </div>
+                <div class="Macchiato">
                     <img src="images/Macchiato.jpg" alt="макиато" width="280" height="222">
                     <h3 class="mac">Macchiato</h3>
                     <h2 class="milk">Coffee 50% | Milk 50%</h2>
                     <h2 class="mony">$8.50</h2>
-                    <button class="main-button" href="">Order Now</button>
-                </li>
-                <li class="Expresso">
+                    <button class="main-buton">Order Now</button>
+                </div>
+                <div class="Expresso">
                     <img src="images/Expresso.jpg" alt="эспрессо" width="280" height="222">
                     <h3 class="exp">Expresso</h3>
                     <h2 class="milk">Coffee 50% | Milk 50%</h2>
                     <h2 class="mony">$8.50</h2>
-                    <button class="main-button" href="">Order Now</button>
-                </li>
+                    <button class="main-buton">Order Now</button>
+                </div>
             </ul>
         
         </section>
@@ -88,38 +90,38 @@
                 <img src="images/coffee_blast.png" width="478" height="261">
 
             <ul class="roaw">
-                <li class="Supremebeans">
+                <div class="Supremebeans">
                     <div class="bibi">
                     <img src="images/coffee-beans.png" width="88" height="88">
                     </div>
                     <h2 class="Supreme">Supreme Beans</h2>
                     <h3 class="provide">Beans that provides <br>
                     great taste</h3>
-                </li>
-                <li class="HighQuality">
+                </div>
+                <div class="HighQuality">
                     <div class="hihi">
                     <img src="images/badge.png" width="88" height="88">
                     </div>
                     <h2 class="High">High Quality</h2>
                     <h3 class="wewe">We provide the<br>
                     highest quality</h3>
-                </li>
-                <li class="Extraordinary">
+                </div>
+                <div class="Extraordinary">
                     <div class="haha">
                     <img src="images/coffee-cup.png" width="88" height="88">
                     </div>
                     <h2 class="Extraor">Extraordinary</h2>
                     <h3 class="cici">Coffee like you have<br>
                     never tasted</h3>
-                </li>
-                <li class="Affordableprice">
+                </div>
+                <div class="Affordableprice">
                     <div class="lala">
                     <img src="images/best-price.png" width="88" height="88">
                     </div>
                     <h2 class="Affordablepr">Affordable Price</h2>
                     <h3 class="uiui">Our Coffee prices are<br>
                     easy to afford</h3>
-                </li>
+                </div>
             </ul>
             <h4 class="great">Great ideas start with great coffee, Lets help you achieve that</h4>
             <h3 class="get">Get started today.</h3>
@@ -174,9 +176,7 @@
                         type="text"
                         placeholder="Enter your mail"
                         > 
-                        
                     </form>   
-                    
                 </div>
                 <div class="sbs">
                     <button class="Suscribe-button" href="">Suscribe</button>
@@ -220,5 +220,52 @@
             </div>
         </div>
     </footer>
+    <div class="modal-overlay" id="registerModal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>Create an Account</h2>
+        <form class="registration-form">
+            <div class="form-group">
+                <input type="text" placeholder="Full Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Email Address" required>
+            </div>
+            <div class="form-group">
+                <input type="password" placeholder="Password" required>
+            </div>
+            <div class="form-group">
+                <input type="password" placeholder="Confirm Password" required>
+            </div>
+            <button type="submit" class="register-btn">Register</button>
+            <div class="login-link">
+                Already have an account? <a href="#" class="login-link">Login</a>
+            </div>
+        </form>
+    </div>
+</div>
+    <script> 
+    
+    const modal = document.getElementById("registerModal");
+    const registerBtn = document.querySelector(".menu-button");
+    const closeBtn = document.querySelector(".close-modal");
+    
+   
+    registerBtn.addEventListener("click", function() {
+        modal.style.display = "block";
+    });
+    
+
+    closeBtn.addEventListener("click", function() {
+        modal.style.display = "none";
+    });
+    
+
+    window.addEventListener("click", function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    });
+    </script>
 </body>
 </html>
